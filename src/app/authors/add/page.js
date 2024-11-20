@@ -55,12 +55,14 @@ export default function AddAuthorPage() {
             value={biography}
             onChange={(e) => setBiography(e.target.value)}
             placeholder="Enter author biography"
+            required
           />
           <FormField
             label="Born Date"
             type="date"
             value={bornDate}
             onChange={(e) => setBornDate(e.target.value)}
+            required
           />
           <ErrorMessage error={error} />
           <SubmitButton loading={loading} label="Add Author" />

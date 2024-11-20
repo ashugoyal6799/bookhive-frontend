@@ -65,6 +65,7 @@ export default function AddBookPage() {
             value={description}
             onChange={(e) => setDescription(e.target.value)}
             placeholder="Enter book description"
+            required
           />
           <FormField
             label="Published Date"

@@ -116,9 +116,6 @@ export default function BookCard({
                 <p className="text-sm text-gray-500">
                   Rating: {review.rating} / 5
                 </p>
-                <p className="text-sm text-gray-400">
-                  {new Date(review.createdAt).toLocaleString()}
-                </p>
               </div>
             ))
           ) : (

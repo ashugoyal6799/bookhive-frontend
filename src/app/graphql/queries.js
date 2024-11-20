@@ -93,7 +93,6 @@ export const ADD_REVIEW = gql`
       id
       content
       rating
-      createdAt
     }
   }
 `;
@@ -104,7 +103,6 @@ export const GET_REVIEWS_BY_BOOK = gql`
       id
       content
       rating
-      createdAt
     }
   }
 `;
